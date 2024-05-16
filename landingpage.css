@@ -1,0 +1,546 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sociallink {
+    width: 30%;
+    display: inline-block;
+}
+
+.linkedin {
+    text-decoration: none;
+}
+
+.fa-linkedin {
+    font-size: 25px;
+    color: blue;
+    margin-left: 5%;
+}
+
+.facebook {
+    text-decoration: none;
+}
+
+.fa-facebook {
+    font-size: 25px;
+    color: blue;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 5%;
+}
+
+.twitter {
+    text-decoration: none;
+}
+
+.fa-x-twitter {
+    font-size: 20px;
+    color: white;
+    margin-left: 5%;
+}
+
+.navbar {
+    width: 23%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5%;
+    color: white;
+}
+
+.fa-phone {
+    font-size: 20px;
+    color: blue;
+    padding-top: 5px;
+}
+
+.no {
+    font-size: 20px;
+    display: inline-block;
+    font-weight: 400;
+    padding-right: 2%;
+    padding-top: 1%
+}
+
+.link {
+    text-decoration: none;
+}
+
+.fa-link {
+    font-size: 20px;
+    padding-top: 5px;
+    color: white;
+}
+
+.browser {
+    font-size: 20px;
+    display: inline-block;
+    font-weight: 400;
+    color: white;
+}
+
+@media screen and (min-width:700px) and (max-width:800px) {
+    .navbar {
+        width: 50%;
+    }
+}
+
+
+.header2 {
+    background-color: rgb(120, 151, 220);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.landingpagehdg {
+    margin-left: 1.5%;
+    color: rgb(7, 7, 7);
+}
+
+.fa-table-columns {
+    font-size: 25px;
+}
+
+.landingpage {
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 400;
+    color: black;
+}
+
+.navbar2 {
+    margin-right: 3%;
+}
+
+.navbar2 a {
+    font-size: 22px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    text-decoration: none;
+    color: black
+}
+
+.navbar2 a:hover {
+    color: white;
+}
+
+.homepic {
+    height: 550px;
+    width: 100%;
+    background-image: url("bglogo.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.transparentbg {
+    height: 550px;
+    width: 100%;
+    background-color: rgba(25, 58, 81, 0.837);
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 700px) and (max-width: 800px) {
+    .homepic {
+        height: 470px;
+    }
+    .transparentbg {
+        height: 470px;
+    }
+}
+
+.applecontent {
+    height: 300px;
+    width: 70%;
+    margin-top: 6%;
+    margin-right: 5%;
+}
+
+.verticalline {
+    height: 300px;
+    width: 6px;
+    background-color: rgb(214, 213, 213);
+    border-radius: 40px;
+    margin-top: 5%;
+    display: inline-block;
+}
+
+@media screen and (min-width:700px) and (max-width:800px) {
+    .applecontent {
+        height: 50%;
+        width: 100%;
+        margin-left: 1%;
+        margin-top: 15%;
+        }
+        .verticalline {
+            margin-top: 10% ;
+            margin-left: 10%;
+            
+        }
+}
+
+.applehdg {
+    font-family: sans-serif;
+    font-size: 70px;
+    padding-left: 2%;
+    display: inline-block;
+    color: rgb(239, 239, 239);
+}
+
+.applep {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    padding-top: 4%;
+    padding-left: 3%;
+    letter-spacing: 0.5px;
+    color: rgb(254, 253, 253);
+}
+
+.products {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media screen and (min-width:700px) and (max-width: 800px){
+    .products {
+        height: 200px;
+        }
+    .applep {
+        letter-spacing: 1px;
+    }
+}
+    
+.rocketcontent {
+    height: 70px;
+    width: 100%;
+    display: flex;
+   
+}
+
+.LB {
+    height: 150px;
+    width: 25%;
+}
+
+.rocket {
+    height: 40px;
+    width: 40px;
+    background-color: grey;
+    border-radius: 50%;
+    margin-top: 4%;
+    margin-left: 4%;
+}
+
+.fa-rocket {
+    font-size: 23px;
+    padding: 8px 0 0 8px;
+}
+
+.LB h3 {
+    display: inline-block;
+    padding-top: 6%;
+    padding-left: 10%;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.LB p {
+    font-size: 15px;
+    padding-left: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (min-width:700px) and (max-width: 800px){
+    .LB p {
+        font-size: 13px;
+    }
+    .LB h3 {
+        font-size: 15px;
+    }
+}
+
+.headphones {
+    height: 40px;
+    width: 40px;
+    background-color: grey;
+    border-radius: 50%;
+    margin-top: 4%;
+    margin-left: 4%;
+}
+
+.fa-headphones {
+    font-size: 23px;
+    padding: 8px 0 0 8px;
+}
+
+.OST {
+    height: 150px;
+    width: 25%;
+}
+
+.ostcontent {
+    height: 70px;
+    width: 100%;
+    display: flex;
+}
+
+.OST h3 {
+    display: inline-block;
+    padding-top: 6%;
+    padding-left: 10%;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.OST p {
+    font-size: 15px;
+    padding-left: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (min-width:700px) and (max-width: 800px){
+    .OST p {
+       font-size: 13px;
+    }
+    .fa-headphones {
+        padding-left: 5px;
+        padding-top: 4px;
+    }
+    .headphones {
+        height: 35px;
+        width: 40px;
+        border-radius: 50%;
+        margin-top: 10px;
+    }
+    .ostcontent h3 {
+        font-size: 15px;
+    }
+}
+
+.fa-face-smile {
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.clockcontent {
+    height: 70px;
+    width: 100%;
+    display: flex;
+}
+
+.TM h3 {
+    display: inline-block;
+    padding-top: 6%;
+    padding-left: 10%;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.TM {
+    height: 150px;
+    width: 25%;
+}
+
+.TM p {
+    font-size: 15px;
+    padding-left: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (min-width:700px) and (max-width: 800px){
+    .TM p {
+        font-size: 13px;
+    }
+    .TM h3 {
+        font-size: 15px;
+    }
+    .fa-face-smile {
+       margin-top: 15px;
+    }
+}
+
+.about {
+    height: 365px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(228, 223, 223);
+}
+
+.aboutus {
+    height: 300px;
+    width: 45%;
+    margin-top: 20px;
+    margin-left: 7%;
+}
+
+.aboutus h1 {
+    font-size: 45px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+.aboutus p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.aboutpic {
+    height: 330px;
+    width: 25%;
+    background-image: url("about pic.png");
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+    border-radius: 40px;
+}
+
+@media screen and (min-width:700px) and (max-width: 800px){
+    .aboutus p {
+        font-size: 15px;
+    }
+    .aboutpic {
+        height: 260px;
+        width: 40%;
+        margin-top: 30px;
+    }
+}
+.services {
+    height: 375px;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.448);
+}
+
+.services h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    padding-top: 20px;
+    padding-left: 15%;
+    text-decoration: underline;
+}
+
+.servicecontent {
+    height: 260px;
+    width: 77%;
+    margin-top: 1%;
+    margin-left: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.applemusic {
+    height: 260px;
+    width: 260px;
+    background-image: url("applemusiclogo.png");
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.applestore {
+    height: 260px;
+    width: 260px;
+    background-image: url("alogo.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+}
+
+.applemaps {
+    height: 260px;
+    width: 260px;
+    background-image: url("applemapslogo.png");
+    background-size: cover;
+    border-radius: 50px;
+}
+
+@media screen and (min-width:700px) and (max-width: 800px){
+    .services h1 {
+        padding-left: 10%;
+    }
+    .servicecontent {
+        margin-top: 4%;
+        margin-left: 10%;
+        height: 200px;
+        width: 85%;
+        justify-content: space-between;
+    }
+    .applemusic {
+        height: 200px;
+        width: 200px;
+    }
+    .applestore {
+        height: 200px;
+        width: 200px;
+    }
+    .applemaps {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+.bottomdiv {
+    height: 40px;
+    width: 77%;
+    margin-left: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.amusic {
+    height: 40px;
+    width: 260px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 3%;
+}
+
+.astore {
+    height: 40px;
+    width: 260px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 3%;
+}
+
+.amaps {
+    height: 40px;
+    width: 260px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 3%;
+}
+
+@media screen and (min-width:700px) and (max-width: 800px){
+    .bottomdiv {
+        width: 85%;
+        margin-left: 10%;
+    }
+    .amusic {
+        font-size: 28px;
+        font-weight: 500;
+    }
+    .astore {
+        font-size: 28px;
+        font-weight: 500;
+        padding-left: 5%;
+    }
+    .amaps {
+        font-size: 28px;
+        font-weight: 500;
+        padding-left: 5%;
+    }
+}
